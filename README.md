@@ -33,6 +33,3 @@ Lets say I have a table, Users, with 3 records.
 Now, I wanna count how many female users there are.
     count_table_rows("users", "WHERE gender LIKE 'female'") //Since I don't need to order, no need to use it.
 The output will be 1.
-Now to use it on a chart.js we would apply this method on a "grand" scale.
-
-Crea
