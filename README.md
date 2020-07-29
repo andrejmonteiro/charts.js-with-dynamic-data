@@ -65,11 +65,12 @@ The output will be 1, since there's only one Female listed.
 What comes next may not be the best way to approach it, I personaly found it to be effecient.
 I've created a file ```chats.php```, where I put every single function required for the charts.js to work.  
 Consider the next table.  
-| ID |Name   |  Email | Gender | Date of Birth | Occupation |
+|ID|Name|Email|Gender|Date of Birth|Occupation|
 |---|---|---|---|---|---|
-| 1 |Benecditc C|cumberbitch@strange.com|Male|1976/07/19|Actor|
-| 2 |Robert D Jr|rdjr@luv3000.com|Male|1965/04/04|Actor|
-| 3 |Cate B|cate@hela.com|Female|1969/05/14|Unemployed|  
+|1|Benecditc C|cumberbitch@strange.com|Male|1976/07/19|Actor|
+|2|Robert D Jr|rdjr@luv3000.com|Male|1965/04/04|Actor|
+|3|Cate B|cate@hela.com|Female|1969/05/14|Unemployed| 
+ 
 I can now run a script in the  ```charts.php``` like so:
 ```
 $occupation = array (
