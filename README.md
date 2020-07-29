@@ -73,8 +73,8 @@ Consider the next table.
 I can now run a script in the  ```charts.php``` like so:
 ```
 $occupation = array (
-	"actor" => count_table_rows("candidate", "WHERE occupation = 'Actor'"),
-	"unemployed" => count_table_rows("candidate", "WHERE occupation = 'Unemployed'")
+	"actor" => count_table_rows("user", "WHERE occupation = 'Actor'"),
+	"unemployed" => count_table_rows("user", "WHERE occupation = 'Unemployed'")
 );
 ```
 This will create an array with the exact number of actor and/or unemployed registries.  
