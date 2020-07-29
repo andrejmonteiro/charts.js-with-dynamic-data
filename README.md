@@ -72,13 +72,6 @@ Consider the next table.
 | 3 |Cate B|cate@hela.com|Female|1969/05/14|Unemployed|  
 I can now run a script in the  ```charts.php``` like so:
 ```
-$year = date("Y");
-function getMax() {
-	global $registered;
-	$max = max($registered) + 1;
-	$i = $max;
-	return $max;
-}
 $occupation = array (
 	"actor" => count_table_rows("candidate", "WHERE occupation = 'Actor'"),
 	"unemployed" => count_table_rows("candidate", "WHERE occupation = 'Unemployed'")
